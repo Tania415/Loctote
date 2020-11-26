@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+ font-family: 'Saira', sans-serif;
+}
+
+header {
+    background: url("../image/bannerbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.top11 {
+    background-color: white;
+    border-bottom: 1px solid #9996965c;
+}
+
+.top-left {}
+
+.top-left ul{}
+
+.top-left ul a{
+    text-decoration: none;
+    color: #000000d1;
+}
+
+.parah a{
+    display: block;
+    padding: 8px 0px;
+}
+
+
+.inline-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-right {}
+
+.top-right ul {}
+
+.top-right ul.nav {
+    justify-content: flex-end;
+    color: black;
+}
+
+.top-right ul.nav li{}
+
+.top-right ul.nav li a{
+    color: #000000d9;
+}
+
+.top-right ul.nav li a:hover{}
+
+.top-right ul.nav li select{}
+
+.top-right ul.nav li select option{}
+
+.navbar{}
+
+.navbar-nav{}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0 / 75%);
+    font-size: 17px;
+    
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 1px solid gray;
+    
+}
+
+.header-sticky-wrapper{
+    position: relative;
+}
+.logo{}
+
+.active{
+    font-weight: 500;
+}
+
+.navbar-brand{}
+
+.navbar-collapse {
+    align-items: center;
+    width: auto;
+}
+
+.loctote{
+     padding: 20px 0px;
+}
+
+ul.nav i{
+    color: #000000d1;
+}
+
+.black{
+    background: rgb(48, 48, 47);
+    padding: 10px;
+}
+
+.black p{
+    color: #d4be84e0;;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.heading1{
+    color: #fff;
+    text-align: center;
+}
+
+.heading1 h1{
+    padding-top: 182px;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+/**Production-section**/
+ .serach_section{
+    margin: 100px 0 10px;
+}
+.seach-text{}
+
+.seach-text span{}
+
+.search-box{
+    width: auto;
+
+}
+.search-box select{
+        border: 2px solid;
+        padding: 10px 52px 10px 26px;
+        background-color: #f3f0eb;
+        text-transform: capitalize;
+}
+
+
+
+
+.product_section{}
+.box3{}
+.box3_sub{
+    padding: 20px 10px;
+}
+.box3-img{
+    width: 100%;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.box3-img img:nth-child(1):hover {
+              opacity: 0;
+
+}
+
+.box3-img:hover .quickview span {
+       transition:all .3s linear;
+       transform: translate(0px, 0px);
+}
+
+.box3-img img:nth-child(1){
+       opacity: 1;
+       transition: all .1s linear;
+}
+
+.box3-img img:nth-child(2){
+     position: absolute;
+     top: 0;
+     right: 0;
+     transform: translate(0%, 0%);
+     opacity: 1;
+     z-index: -1;
+     padding: 30px;
+     transition: all .4s linear;
+}
+
+.box3text{
+    color: black;
+}
+.box3text span {
+    font-weight: 400;
+}
+.box3text p {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 5px 0 2px;
+}
+.box3text strike {}
+.star{}
+.star img{
+    max-width: 20%;
+    margin: 0 10px;
+}
+.star strong {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sale {
+    background-color: black;
+    color: white;
+    padding: 5px 12px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 92%;
+    right: 0%;
+}
+.sale span{}
+
+.quick span {
+    position: absolute;
+    width: 100%;
+    bottom: 15px;
+    right: 0;
+    transform: translate(0px, 72px);
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    font-weight: 400;
+    z-index: 50;
+    transition:all .3s linear;
+}
+
+
+
+  
+footer{}
+
+.footer-section{
+    padding-top: 50px;
+    padding-bottom: 35px;
+    border-top: 1px solid #6866668c;
+}
+
+.footer-content{}
+
+.footer-section ul{}
+
+.footer-section ul li{
+    list-style: none;
+}
+
+.footer-section ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-section ul li a:hover{
+    color: #ff5722cc;
+}
+
+.footer-section.copy{}
+
+.footer-section h5{}
+.footer-section p{}
+
+.footer-section input{
+       margin-top: 26px;
+       padding: 5px;
+}
+
+.sign{}
+.footer-section i{
+    font-size: 20px;
+    margin-top: 11px;
+    margin-left: -8px;
+}
+.copy p{}
